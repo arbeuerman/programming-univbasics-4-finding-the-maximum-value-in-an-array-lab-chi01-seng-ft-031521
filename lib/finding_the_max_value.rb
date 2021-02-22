@@ -6,7 +6,7 @@ def find_max_value(array)
   length.times do |entry|
     #get each value 
     current_value = array[entry]
-    binding.pry 
+    #binding.pry 
     #check current value against every other value
     length.times do |next_value|
       if current_value >= array[next_value]
@@ -14,7 +14,7 @@ def find_max_value(array)
       end 
     end 
   end
-  binding.pry
+  #binding.pry
   max_value
 end
 
