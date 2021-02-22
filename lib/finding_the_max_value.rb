@@ -9,12 +9,8 @@ def find_max_value(array)
     binding.pry 
     #check current value against every other value
     length.times do |next_value|
-      if current_value < array[next_value]
-        binding.pry
-        break
-      else 
+      if current_value >= array[next_value]
         max_value = current_value
-        binding.pry
       end 
     end 
   end
