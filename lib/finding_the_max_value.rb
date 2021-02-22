@@ -1,3 +1,7 @@
 def find_max_value(array)
-  # Add your solution here
+  max_value = nil 
+  length = array.length 
+  length.times do |i|
+    
+  end 
 end
