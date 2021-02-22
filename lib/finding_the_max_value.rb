@@ -1,7 +1,15 @@
 def find_max_value(array)
   max_value = nil 
   length = array.length 
-  length.times do |i|
-    
-  end 
+  length.times do |entry|
+    #get each value 
+    current_value = array[entry]
+    #check current value against every other value
+    length.times do |next_value|
+      if current_value < array[next_value]
+        break
+      end 
+    end 
+  end
+  max_value
 end
